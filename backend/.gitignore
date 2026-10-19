@@ -1,0 +1,6 @@
+.env
+venv/
+__pycache__/
+instance/*.db
+app/ai/artifacts/*.joblib
+.pytest_cache/

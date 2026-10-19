@@ -1,0 +1,17 @@
+.env
+**/.env
+venv/
+**/venv/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+instance/
+**/instance/
+*.db
+.pytest_cache/
+.idea/
+node_modules/
+dist/
+build/

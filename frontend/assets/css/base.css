@@ -1,0 +1,9 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 16px; }
+body { margin: 0; font-family: var(--font); color: var(--text); background: var(--bg); line-height: 1.5; }
+h1 { font-size: 1.5rem; margin: 0 0 .25rem; } h2 { font-size: 1.15rem; margin: 0 0 .75rem; } h3 { font-size: 1rem; margin: 0 0 .5rem; }
+a { color: var(--primary); } a:hover { color: var(--primary-dark); }
+p { margin: 0 0 .75rem; }
+.muted { color: var(--muted); } .small { font-size: .85rem; } .mono { font-family: var(--mono); }
+:focus-visible { outline: 3px solid #8b97f5; outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
