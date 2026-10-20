@@ -11,3 +11,4 @@ joblib
 ruff
 pytest
 gunicorn
+psycopg[binary]>=3.2,<4
